@@ -1,0 +1,119 @@
+:root{
+    --accent-color: #2196F3;
+    --primary-text-color: #212121;
+    --secondary-text-color: 757575;
+    --thirdly-text-color: #FFFFFF;
+    --background-color
+}
+body{
+    font-family: "Roboto", sans-serif;
+color:var(-primary-text-color);
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+p,
+ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    margin: 0;
+    padding: 0;
+    color: var(--primary-text-color);
+    text-decoration: none;
+   /* font-family: "Raleway", sans-serif; */
+}
+ul{
+    list-style: none;
+}
+#2196F3 -accent-color
+#FFFFF -thirdly-text-color
+#212121 -primary-text-color
+757575 -secondary-text-color
+.logo{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color:#212121;
+}
+
+.logo span{
+    color:var(accent-color);}
+ .nav-link,
+ .contacts-link
+{
+    /* font-family: 'Roboto'; */
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+ }
+}
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus{
+    color: var(--accent-color);
+}
+.contacts-link{
+    color: var(--secondary-text-color);
+}
+.section{
+    background-color:var(--background-color) ;
+}
+.conteiner{
+    outline: 1px solid red;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section.hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.section.hero{
+    background-color: var(--background-color);
+}
+.section.hero,
+.hero-title{
+    font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--thirdly-text-color);
+}
+.section.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section.footer{
+
+}
+.contacts-nav{
+
+}
+.nav-list{
+    display: flex;
+}
+nav{
+    margin-left: 93px;
+}
+.contacts-list{
+    display: flex;
+    margin-left: auto;
+}
