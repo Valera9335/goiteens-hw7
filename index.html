@@ -13,15 +13,15 @@
 </head>
 <body>
     <!-- шапка -->
-    <header>
-        <a href="./"><span>web</span>studio</a>
+    <header class="page-header">
         <nav>
+        <a class="logo" href="./"><span>web</span>studio</a>
             <ul class="nav-link">
-                <li class="nav-item"><a href="">студія</a> 
+                <li class="list-item"><a href="">студія</a> 
                 </li>
-                <li class="nav-item"><a href="./portfolio.html">портфоліо</a> 
+                <li class="list-item"><a href="./portfolio.html">портфоліо</a> 
                 </li>
-                <li class="nav-item"><a href="">контакти</a> 
+                <li class="list-item"><a href="">контакти</a> 
                 </li>
             </ul>
         </nav>
@@ -32,15 +32,15 @@
     </header>
     <!--  -->
     <main>
-        <section class="section hero">
-            <div class="container">
+        <section class="hero">
+            <div class="hero-title">
                 <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-
+                <button type="button" class="hero-button">Замовити послугу</button>
             </div>
+            </section>
         <section class="section">
-           <div class="container"> 
             <h2>Особливості</h2>
-            <ul>
+            <ul class="features">
                 <li>
                     <h3>УВАГА ДО ЛЕТАЛЕЙ</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, dolores quidem, aliquam quos, veritatis esse consectetur eum impedit sapiente aliquid adipisci excepturi quae quam voluptas veniam architecto nobis accusantium officia!</p>
@@ -58,12 +58,11 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, facere tempore officiis repudiandae corporis harum accusamus magnam sit ullam laudantium soluta rerum dicta magni ut eligendi dolor dolorem pariatur aliquid?</p>
                 </li>
             </ul>
-        </div>
         </section>
+        <!--  -->
         <section class="section">
-          <div class="container">
-              <h2>Чим ми займаємось</h2>
-            <ul>
+              <h2  class="section-title">Чим ми займаємось</h2>
+            <ul class="team">
                 <li>
                     <img src="./images/img (1).jpg" alt="">
                 </li>
@@ -74,13 +73,11 @@
                     <img src="./images/img.jpg" alt="">
                 </li>
             </ul>
-        </div>
         </section>
         <!-- наша команда -->
         <section class="section">
-           <div class="conteiner">
-             <h2>Наша команда</h2>
-            <ul>
+             <h2  class="section-title">Наша команда</h2>
+            <ul class="team">
                 <li>
                     <img src="./images/img (3).jpg" alt="Ігор Дем’яненко">
                     <p>Ігор Дем’яненко</p>
@@ -102,19 +99,16 @@
                     <p>UI Designer</p>
                 </li>
             </ul>
-        </div>
         </section>
     </main>
     <!-- footer -->
     <footer class="section footer">
-        <div class="conteiner nav">
-            <a href=""><span>web</span>studio</a>
-            <address>м. Київ, пр-т Лесі Українки, 26</address> 
-            <ul>
-                <li><a href="mail:info@devstudio.com"></a>info@devstudio.com </li>
-                <li><a href="tel:+380961111111"></a>+38 096 111 11 11 </li>
+            <a class="footer-logo" href=""><span>web</span>studio</a>
+            <address class="footer-address">м. Київ, пр-т Лесі Українки, 26</address> 
+            <ul class="footer-contacts">
+                <li><a class="footer-contacts-link" href="mail:info@devstudio.com"></a>info@devstudio.com </li>
+                <li><a class="footer-contacts-link" href="tel:+380961111111"></a>+38 096 111 11 11 </li>
             </ul>
-        </div>
     </footer>
 </body>
 </html>
