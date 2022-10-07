@@ -99,6 +99,17 @@ ul{
   
   }
   /*блок герой*/
+  .section.hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-image: url();
+    background-position: center;
+  }
+  .section.hero,
+  .section.hooter{
+    background-color: var(--background-color);
+  }
   .hero{
     background-color: #2f303a;
   }
