@@ -126,7 +126,12 @@ ul{
     background: var(--background-color);
     color: var(--accent-color);
   }
-  
+  /* header */
+  header{
+    display: flex;
+    justify-content: center;
+
+  }
   /*Footer*/
   .footer,
   .footer-address {
@@ -151,7 +156,6 @@ ul{
   justify-content: center;
   margin-bottom: 50px;
 }
-.
 
   /* приклади робіт */
 .examples{
